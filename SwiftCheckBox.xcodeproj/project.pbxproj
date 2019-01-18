@@ -7,124 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0870C3F21F1E437007AE125 /* SwiftCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = B0870C3D21F1E437007AE125 /* SwiftCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0870C4621F1E451007AE125 /* SwiftCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C4521F1E451007AE125 /* SwiftCheckBox.swift */; };
-		B0870C4E21F1E4BC007AE125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C4D21F1E4BC007AE125 /* AppDelegate.swift */; };
-		B0870C5021F1E4BC007AE125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C4F21F1E4BC007AE125 /* ViewController.swift */; };
-		B0870C5321F1E4BC007AE125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0870C5121F1E4BC007AE125 /* Main.storyboard */; };
-		B0870C5521F1E4BD007AE125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0870C5421F1E4BD007AE125 /* Assets.xcassets */; };
-		B0870C5821F1E4BD007AE125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0870C5621F1E4BD007AE125 /* LaunchScreen.storyboard */; };
-		B0870C6321F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C6221F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.swift */; };
-		B0870C6C21F1E4ED007AE125 /* SwiftCheckBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0870C3A21F1E437007AE125 /* SwiftCheckBox.framework */; };
+		B0870C7C21F208D6007AE125 /* SwiftCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = B0870C7A21F208D6007AE125 /* SwiftCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0870C8321F20900007AE125 /* SwiftCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C8221F20900007AE125 /* SwiftCheckBox.swift */; };
+		B0870C8B21F20978007AE125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C8A21F20978007AE125 /* AppDelegate.swift */; };
+		B0870C8D21F20978007AE125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0870C8C21F20978007AE125 /* ViewController.swift */; };
+		B0870C9021F20978007AE125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0870C8E21F20978007AE125 /* Main.storyboard */; };
+		B0870C9221F20979007AE125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0870C9121F20979007AE125 /* Assets.xcassets */; };
+		B0870C9521F20979007AE125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0870C9321F20979007AE125 /* LaunchScreen.storyboard */; };
+		B0870C9B21F209C2007AE125 /* SwiftCheckBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0870C7721F208D6007AE125 /* SwiftCheckBox.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B0870C5F21F1E4BD007AE125 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0870C3121F1E437007AE125 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0870C4A21F1E4BB007AE125;
-			remoteInfo = SwiftCheckBoxSample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B0870C3A21F1E437007AE125 /* SwiftCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0870C3D21F1E437007AE125 /* SwiftCheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCheckBox.h; sourceTree = "<group>"; };
-		B0870C3E21F1E437007AE125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0870C4521F1E451007AE125 /* SwiftCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCheckBox.swift; sourceTree = "<group>"; };
-		B0870C4B21F1E4BB007AE125 /* SwiftCheckBoxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCheckBoxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0870C4D21F1E4BC007AE125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0870C4F21F1E4BC007AE125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0870C5221F1E4BC007AE125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0870C5421F1E4BD007AE125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0870C5721F1E4BD007AE125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B0870C5921F1E4BD007AE125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0870C5E21F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCheckBoxSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0870C6221F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCheckBoxSampleUITests.swift; sourceTree = "<group>"; };
-		B0870C6421F1E4BD007AE125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0870C7721F208D6007AE125 /* SwiftCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0870C7A21F208D6007AE125 /* SwiftCheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCheckBox.h; sourceTree = "<group>"; };
+		B0870C7B21F208D6007AE125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0870C8221F20900007AE125 /* SwiftCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCheckBox.swift; sourceTree = "<group>"; };
+		B0870C8821F20978007AE125 /* SwiftCheckBoxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCheckBoxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0870C8A21F20978007AE125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0870C8C21F20978007AE125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0870C8F21F20978007AE125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0870C9121F20979007AE125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0870C9421F20979007AE125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0870C9621F20979007AE125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B0870C3621F1E437007AE125 /* Frameworks */ = {
+		B0870C7321F208D6007AE125 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0870C4821F1E4BB007AE125 /* Frameworks */ = {
+		B0870C8521F20978007AE125 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0870C6C21F1E4ED007AE125 /* SwiftCheckBox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0870C5B21F1E4BD007AE125 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B0870C9B21F209C2007AE125 /* SwiftCheckBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0870C3021F1E437007AE125 = {
+		B0870C6D21F208D6007AE125 = {
 			isa = PBXGroup;
 			children = (
-				B0870C3C21F1E437007AE125 /* SwiftCheckBox */,
-				B0870C4C21F1E4BB007AE125 /* SwiftCheckBoxSample */,
-				B0870C6121F1E4BD007AE125 /* SwiftCheckBoxSampleUITests */,
-				B0870C3B21F1E437007AE125 /* Products */,
-				B0870C6B21F1E4ED007AE125 /* Frameworks */,
+				B0870C7921F208D6007AE125 /* SwiftCheckBox */,
+				B0870C8921F20978007AE125 /* SwiftCheckBoxSample */,
+				B0870C7821F208D6007AE125 /* Products */,
+				B0870C9A21F209C2007AE125 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B0870C3B21F1E437007AE125 /* Products */ = {
+		B0870C7821F208D6007AE125 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0870C3A21F1E437007AE125 /* SwiftCheckBox.framework */,
-				B0870C4B21F1E4BB007AE125 /* SwiftCheckBoxSample.app */,
-				B0870C5E21F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.xctest */,
+				B0870C7721F208D6007AE125 /* SwiftCheckBox.framework */,
+				B0870C8821F20978007AE125 /* SwiftCheckBoxSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0870C3C21F1E437007AE125 /* SwiftCheckBox */ = {
+		B0870C7921F208D6007AE125 /* SwiftCheckBox */ = {
 			isa = PBXGroup;
 			children = (
-				B0870C4521F1E451007AE125 /* SwiftCheckBox.swift */,
-				B0870C3D21F1E437007AE125 /* SwiftCheckBox.h */,
-				B0870C3E21F1E437007AE125 /* Info.plist */,
+				B0870C8221F20900007AE125 /* SwiftCheckBox.swift */,
+				B0870C7A21F208D6007AE125 /* SwiftCheckBox.h */,
+				B0870C7B21F208D6007AE125 /* Info.plist */,
 			);
 			path = SwiftCheckBox;
 			sourceTree = "<group>";
 		};
-		B0870C4C21F1E4BB007AE125 /* SwiftCheckBoxSample */ = {
+		B0870C8921F20978007AE125 /* SwiftCheckBoxSample */ = {
 			isa = PBXGroup;
 			children = (
-				B0870C4D21F1E4BC007AE125 /* AppDelegate.swift */,
-				B0870C4F21F1E4BC007AE125 /* ViewController.swift */,
-				B0870C5121F1E4BC007AE125 /* Main.storyboard */,
-				B0870C5421F1E4BD007AE125 /* Assets.xcassets */,
-				B0870C5621F1E4BD007AE125 /* LaunchScreen.storyboard */,
-				B0870C5921F1E4BD007AE125 /* Info.plist */,
+				B0870C8A21F20978007AE125 /* AppDelegate.swift */,
+				B0870C8C21F20978007AE125 /* ViewController.swift */,
+				B0870C8E21F20978007AE125 /* Main.storyboard */,
+				B0870C9121F20979007AE125 /* Assets.xcassets */,
+				B0870C9321F20979007AE125 /* LaunchScreen.storyboard */,
+				B0870C9621F20979007AE125 /* Info.plist */,
 			);
 			path = SwiftCheckBoxSample;
 			sourceTree = "<group>";
 		};
-		B0870C6121F1E4BD007AE125 /* SwiftCheckBoxSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B0870C6221F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.swift */,
-				B0870C6421F1E4BD007AE125 /* Info.plist */,
-			);
-			path = SwiftCheckBoxSampleUITests;
-			sourceTree = "<group>";
-		};
-		B0870C6B21F1E4ED007AE125 /* Frameworks */ = {
+		B0870C9A21F209C2007AE125 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -134,25 +102,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B0870C3721F1E437007AE125 /* Headers */ = {
+		B0870C7421F208D6007AE125 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0870C3F21F1E437007AE125 /* SwiftCheckBox.h in Headers */,
+				B0870C7C21F208D6007AE125 /* SwiftCheckBox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0870C3921F1E437007AE125 /* SwiftCheckBox */ = {
+		B0870C7621F208D6007AE125 /* SwiftCheckBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0870C4221F1E437007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBox" */;
+			buildConfigurationList = B0870C7F21F208D6007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBox" */;
 			buildPhases = (
-				B0870C3521F1E437007AE125 /* Sources */,
-				B0870C3621F1E437007AE125 /* Frameworks */,
-				B0870C3721F1E437007AE125 /* Headers */,
-				B0870C3821F1E437007AE125 /* Resources */,
+				B0870C7221F208D6007AE125 /* Sources */,
+				B0870C7321F208D6007AE125 /* Frameworks */,
+				B0870C7421F208D6007AE125 /* Headers */,
+				B0870C7521F208D6007AE125 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -160,16 +128,16 @@
 			);
 			name = SwiftCheckBox;
 			productName = SwiftCheckBox;
-			productReference = B0870C3A21F1E437007AE125 /* SwiftCheckBox.framework */;
+			productReference = B0870C7721F208D6007AE125 /* SwiftCheckBox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B0870C4A21F1E4BB007AE125 /* SwiftCheckBoxSample */ = {
+		B0870C8721F20978007AE125 /* SwiftCheckBoxSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0870C6521F1E4BD007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBoxSample" */;
+			buildConfigurationList = B0870C9721F20979007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBoxSample" */;
 			buildPhases = (
-				B0870C4721F1E4BB007AE125 /* Sources */,
-				B0870C4821F1E4BB007AE125 /* Frameworks */,
-				B0870C4921F1E4BB007AE125 /* Resources */,
+				B0870C8421F20978007AE125 /* Sources */,
+				B0870C8521F20978007AE125 /* Frameworks */,
+				B0870C8621F20978007AE125 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -177,51 +145,29 @@
 			);
 			name = SwiftCheckBoxSample;
 			productName = SwiftCheckBoxSample;
-			productReference = B0870C4B21F1E4BB007AE125 /* SwiftCheckBoxSample.app */;
+			productReference = B0870C8821F20978007AE125 /* SwiftCheckBoxSample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B0870C5D21F1E4BD007AE125 /* SwiftCheckBoxSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0870C6821F1E4BD007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBoxSampleUITests" */;
-			buildPhases = (
-				B0870C5A21F1E4BD007AE125 /* Sources */,
-				B0870C5B21F1E4BD007AE125 /* Frameworks */,
-				B0870C5C21F1E4BD007AE125 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B0870C6021F1E4BD007AE125 /* PBXTargetDependency */,
-			);
-			name = SwiftCheckBoxSampleUITests;
-			productName = SwiftCheckBoxSampleUITests;
-			productReference = B0870C5E21F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B0870C3121F1E437007AE125 /* Project object */ = {
+		B0870C6E21F208D6007AE125 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "ENIXSOFT.CO.,LTD";
 				TargetAttributes = {
-					B0870C3921F1E437007AE125 = {
+					B0870C7621F208D6007AE125 = {
 						CreatedOnToolsVersion = 9.3.1;
 						LastSwiftMigration = 0930;
 					};
-					B0870C4A21F1E4BB007AE125 = {
+					B0870C8721F20978007AE125 = {
 						CreatedOnToolsVersion = 9.3.1;
-					};
-					B0870C5D21F1E4BD007AE125 = {
-						CreatedOnToolsVersion = 9.3.1;
-						TestTargetID = B0870C4A21F1E4BB007AE125;
 					};
 				};
 			};
-			buildConfigurationList = B0870C3421F1E437007AE125 /* Build configuration list for PBXProject "SwiftCheckBox" */;
+			buildConfigurationList = B0870C7121F208D6007AE125 /* Build configuration list for PBXProject "SwiftCheckBox" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,94 +175,70 @@
 				en,
 				Base,
 			);
-			mainGroup = B0870C3021F1E437007AE125;
-			productRefGroup = B0870C3B21F1E437007AE125 /* Products */;
+			mainGroup = B0870C6D21F208D6007AE125;
+			productRefGroup = B0870C7821F208D6007AE125 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0870C3921F1E437007AE125 /* SwiftCheckBox */,
-				B0870C4A21F1E4BB007AE125 /* SwiftCheckBoxSample */,
-				B0870C5D21F1E4BD007AE125 /* SwiftCheckBoxSampleUITests */,
+				B0870C7621F208D6007AE125 /* SwiftCheckBox */,
+				B0870C8721F20978007AE125 /* SwiftCheckBoxSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B0870C3821F1E437007AE125 /* Resources */ = {
+		B0870C7521F208D6007AE125 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0870C4921F1E4BB007AE125 /* Resources */ = {
+		B0870C8621F20978007AE125 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0870C5821F1E4BD007AE125 /* LaunchScreen.storyboard in Resources */,
-				B0870C5521F1E4BD007AE125 /* Assets.xcassets in Resources */,
-				B0870C5321F1E4BC007AE125 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0870C5C21F1E4BD007AE125 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B0870C9521F20979007AE125 /* LaunchScreen.storyboard in Resources */,
+				B0870C9221F20979007AE125 /* Assets.xcassets in Resources */,
+				B0870C9021F20978007AE125 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B0870C3521F1E437007AE125 /* Sources */ = {
+		B0870C7221F208D6007AE125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0870C4621F1E451007AE125 /* SwiftCheckBox.swift in Sources */,
+				B0870C8321F20900007AE125 /* SwiftCheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0870C4721F1E4BB007AE125 /* Sources */ = {
+		B0870C8421F20978007AE125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0870C5021F1E4BC007AE125 /* ViewController.swift in Sources */,
-				B0870C4E21F1E4BC007AE125 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0870C5A21F1E4BD007AE125 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0870C6321F1E4BD007AE125 /* SwiftCheckBoxSampleUITests.swift in Sources */,
+				B0870C8D21F20978007AE125 /* ViewController.swift in Sources */,
+				B0870C8B21F20978007AE125 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B0870C6021F1E4BD007AE125 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B0870C4A21F1E4BB007AE125 /* SwiftCheckBoxSample */;
-			targetProxy = B0870C5F21F1E4BD007AE125 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B0870C5121F1E4BC007AE125 /* Main.storyboard */ = {
+		B0870C8E21F20978007AE125 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0870C5221F1E4BC007AE125 /* Base */,
+				B0870C8F21F20978007AE125 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B0870C5621F1E4BD007AE125 /* LaunchScreen.storyboard */ = {
+		B0870C9321F20979007AE125 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0870C5721F1E4BD007AE125 /* Base */,
+				B0870C9421F20979007AE125 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,7 +246,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B0870C4021F1E437007AE125 /* Debug */ = {
+		B0870C7D21F208D6007AE125 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		B0870C4121F1E437007AE125 /* Release */ = {
+		B0870C7E21F208D6007AE125 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -444,7 +366,7 @@
 			};
 			name = Release;
 		};
-		B0870C4321F1E437007AE125 /* Debug */ = {
+		B0870C8021F208D6007AE125 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -456,7 +378,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftCheckBox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		B0870C4421F1E437007AE125 /* Release */ = {
+		B0870C8121F208D6007AE125 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -483,7 +404,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftCheckBox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +417,7 @@
 			};
 			name = Release;
 		};
-		B0870C6621F1E4BD007AE125 /* Debug */ = {
+		B0870C9821F20979007AE125 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -515,7 +435,7 @@
 			};
 			name = Debug;
 		};
-		B0870C6721F1E4BD007AE125 /* Release */ = {
+		B0870C9921F20979007AE125 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -530,87 +450,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B0870C6921F1E4BD007AE125 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftCheckBoxSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.SwiftCheckBoxSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftCheckBoxSample;
-			};
-			name = Debug;
-		};
-		B0870C6A21F1E4BD007AE125 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftCheckBoxSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.SwiftCheckBoxSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftCheckBoxSample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0870C3421F1E437007AE125 /* Build configuration list for PBXProject "SwiftCheckBox" */ = {
+		B0870C7121F208D6007AE125 /* Build configuration list for PBXProject "SwiftCheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0870C4021F1E437007AE125 /* Debug */,
-				B0870C4121F1E437007AE125 /* Release */,
+				B0870C7D21F208D6007AE125 /* Debug */,
+				B0870C7E21F208D6007AE125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0870C4221F1E437007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBox" */ = {
+		B0870C7F21F208D6007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0870C4321F1E437007AE125 /* Debug */,
-				B0870C4421F1E437007AE125 /* Release */,
+				B0870C8021F208D6007AE125 /* Debug */,
+				B0870C8121F208D6007AE125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0870C6521F1E4BD007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBoxSample" */ = {
+		B0870C9721F20979007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBoxSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0870C6621F1E4BD007AE125 /* Debug */,
-				B0870C6721F1E4BD007AE125 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B0870C6821F1E4BD007AE125 /* Build configuration list for PBXNativeTarget "SwiftCheckBoxSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B0870C6921F1E4BD007AE125 /* Debug */,
-				B0870C6A21F1E4BD007AE125 /* Release */,
+				B0870C9821F20979007AE125 /* Debug */,
+				B0870C9921F20979007AE125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B0870C3121F1E437007AE125 /* Project object */;
+	rootObject = B0870C6E21F208D6007AE125 /* Project object */;
 }

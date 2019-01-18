@@ -6,8 +6,6 @@
 //  Copyright © 2019年 ENIXSOFT.CO.,LTD. All rights reserved.
 //
 
-import UIKit
-
 import Foundation
 import UIKit
 
@@ -32,16 +30,16 @@ public enum SwiftCheckBoxAlignment: Int {
     case center
 }
 
-protocol SwiftCheckBoxDelegate: class {
+public protocol SwiftCheckBoxDelegate: class {
     func onClickCheck(_ checkBox: SwiftCheckBox, _ checked: Bool) -> Void
     func onClickButton(_ checkBox: SwiftCheckBox, _ clicked: Bool) -> Void
     func onClickLink(_ checkBox: SwiftCheckBox, _ clicked: Bool, url: URL) -> Void
 }
 
-class SwiftCheckBox: UIControl {
-    @IBInspectable var checkboxCornerRadius: CGFloat = 4.0
-    @IBInspectable var checkboxColor: UIColor = .black
-    @IBInspectable var checkboxSideLength : CGFloat = kCheckboxDefaultSideLength
+public class SwiftCheckBox: UIControl {
+    @IBInspectable public var checkboxCornerRadius: CGFloat = 4.0
+    @IBInspectable public var checkboxColor: UIColor = .black
+    @IBInspectable public var checkboxSideLength : CGFloat = kCheckboxDefaultSideLength
     
     public var alignment : SwiftCheckBoxAlignment = .left
     
@@ -57,7 +55,7 @@ class SwiftCheckBox: UIControl {
         }
     }
     
-    var hintText : String? = nil {
+    public var hintText : String? = nil {
         didSet {
             self.textLabel.text = hintText
             self.setNeedsDisplay()
@@ -78,17 +76,17 @@ class SwiftCheckBox: UIControl {
     fileprivate var textLabel : UILabel!
     fileprivate var touchLabel: UILabel!
     
-    weak var delegate: SwiftCheckBoxDelegate?
+    public weak var delegate: SwiftCheckBoxDelegate?
     
     fileprivate var colorDictionary          : Dictionary<String, UIColor> = Dictionary()
     fileprivate var backgroundColorDictionary: Dictionary<String, UIColor> = Dictionary()
     
     // MARK: - Init Methods
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         commonInit()
     }
@@ -114,7 +112,7 @@ class SwiftCheckBox: UIControl {
         self.addObserver(self, forKeyPath: "highlighted", options: [.old, .new], context: nil)
     }
     
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?,
+    override public func observeValue(forKeyPath keyPath: String?, of object: Any?,
                                change: [NSKeyValueChangeKey: Any]?, context: UnsafeMutableRawPointer?) {
         guard (keyPath == "enabled" || keyPath == "selected" || keyPath == "highlighted") else {
             super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)
@@ -260,7 +258,7 @@ class SwiftCheckBox: UIControl {
     }
     
     // override methods
-    override func draw(_ rect:CGRect) {
+    override public func draw(_ rect:CGRect) {
         let frame = CGRect(x: 0,
                            y: (rect.size.height - self.checkboxSideLength) / 2.0,
                            width: self.checkboxSideLength,
@@ -338,7 +336,7 @@ class SwiftCheckBox: UIControl {
         super.draw(rect)
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         
         var textLabelOriginX = self.checkboxSideLength + kCheckboxDefaultPadding
         switch (alignment) {
@@ -417,7 +415,7 @@ class SwiftCheckBox: UIControl {
         super.layoutIfNeeded()
     }
     
-    override func endTracking(_ touch: UITouch?, with event: UIEvent?) {
+    override public func endTracking(_ touch: UITouch?, with event: UIEvent?) {
         guard let location = touch?.location(in: self) else { return }
         if self.textLabel.frame.contains(location) {
             print("textLabel touched")
@@ -455,4 +453,6 @@ class SwiftCheckBox: UIControl {
         return rect.height
     }
 }
+
+
 
