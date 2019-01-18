@@ -95,14 +95,25 @@ Type is [ViewController], Impot SwiftheckBox
         self.checkboxDidChange(self.checkbox4)
         self.view.addSubview(self.checkbox4)
 ```
-1. Sample Screen
+Sample app screens
+----------
+
+
     |                           Screen1                           |     |                           Screen2                           |     |                           Screen3                           |
     |-------------------------------------------------------------|-----|-------------------------------------------------------------|-----|-------------------------------------------------------------|
 
-1. Source
 
+Source
+----------
     [GitHub](https://github.com/hq7781/SwiftCheckBox.git)
     
-License
 
-CTCheckbox is available under the MIT license. See the LICENSE file for more info.
+License
+----------
+SwiftCheckbox is available under the MIT license. See the LICENSE file for more info.
+
+
+
+Usage
+----------
+If have a probles contact to mailTo: hq7781@gmail.com
