@@ -116,4 +116,4 @@ SwiftCheckbox is available under the MIT license. See the LICENSE file for more 
 
 Usage
 ----------
-If have a probles contact to mailTo: hq7781@gmail.com
+If have a problem contact to mailTo: hq7781@gmail.com
